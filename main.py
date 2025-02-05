@@ -80,7 +80,6 @@ for g in groups.keys() :
                         continue
                     else:
                         full_date -= datetime.timedelta(minutes=10)
-            #message = 'LGTL 012050Z 00000KT //// // ////// 10/// Q1029   RE// [METAR]='
             metar = MetarParser().parse(message)
             flag=metar.flags
             temp = metar.temperature
