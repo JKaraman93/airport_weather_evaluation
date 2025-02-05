@@ -23,8 +23,8 @@ from collections import OrderedDict
 
 
 #path = r'C:\Users\tolis\T20250204.MDB'
-#path = r'C:\Users\Jim\Desktop\Archive\2023\2023_01\METEOImages_20230101\T20230101.MDB'
-path = r'C:\Users\tolis\T20250113.MDB'
+path = r'C:\Users\Jim\Desktop\Archive\2023\2023_01\METEOImages_20230101\T20230101.MDB'
+#path = r'C:\Users\tolis\T20250113.MDB'
 conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=' + path + ';')
 cursor = conn.cursor()
 stations = ['LGPZ','LGRX', 'LGAD', 'LGKL', 'LGLR', 'LGTS', 'LGBL', 'LGTG', 'LGEL', 'LGSA', 'LGTL', 'LGLM', 'LGSY', 'LGSR',
