@@ -273,7 +273,7 @@ for g in groups.keys() :
     )
     #fig.show()
     fig.write_image(fig_name+".png", width=2000, height=1000, scale=4)
-    break
+    #break
 
 cursor.close()
 conn.close()
